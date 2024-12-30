@@ -1,0 +1,58 @@
+.register-form {
+    border:1px solid rgb(105, 105, 105);
+    padding:45px;
+    min-height: 40vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 6px;
+}
+h3 {
+    color: #1a51ff;
+    font-weight: 800;
+}
+.username {
+    margin-top: 35px;
+    display:flex;
+    gap:25px;
+}
+.username input {
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.email input {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+}
+.btn-grp {
+    margin-top: 30px;
+}
+.btn-grp button {
+    background-color: #1a51ff;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.btn-grp button:hover {
+    transform: scaleX(1.03);
+    transition: 0.3s;
+}
+.eye-icon {
+    width: 20px;
+    height:20px;
+    cursor: pointer;
+}
+.login-para p{
+    display:flex;
+    flex-direction: column;
+    color:red;
+}

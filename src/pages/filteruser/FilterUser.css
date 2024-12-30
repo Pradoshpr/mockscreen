@@ -1,0 +1,42 @@
+
+.content-container {
+    margin:0;
+    padding:22px 22px;
+}
+.image-content {
+    display:flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+}
+.image-content img{
+    width: 70%;
+    border-radius: 100px;
+    left:0;
+    justify-content: flex-start;
+}
+.image-content h2 {
+    color:white;
+    font-weight: 800;
+}
+.form-notify {
+    margin-top: 45px;
+    display: block;
+    color:white;
+}
+.form-notify p {
+    font-weight: 500;
+}
+.form-notify input {
+    border: none;
+    border-radius:  4px;
+    width: 40%;
+    padding:10px;
+}
+.form-notify button {
+    margin-left: 20px;
+    background-color: #1f51ff;
+    border-radius: 8px;
+    border:none;
+}
+

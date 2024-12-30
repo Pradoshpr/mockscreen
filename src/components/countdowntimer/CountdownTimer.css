@@ -1,0 +1,15 @@
+.count-timer {
+    display:flex;
+    flex-direction: row;
+    gap: 12px;
+    
+}
+ .count-timer .days, .hours, .minutes, .seconds {
+    background-color: #1a51ff;
+    color: white;
+    padding: 12px;
+    margin:0;
+    width: 65px;
+    height: 50px;
+    border-radius: 8px;
+}
